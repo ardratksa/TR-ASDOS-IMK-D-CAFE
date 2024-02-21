@@ -1,0 +1,860 @@
+Code HTML
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prosepero</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menu.css" />
+</head>
+
+<body>
+     <!-- Menu navigasi -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+                <!-- Daftar menu -->
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#events">Event</a></li>
+                <li><a href="#promos">Promo</a></li>
+                <li><a href="#Reservation">Reservation</a></li>
+                <li><a href="http://127.0.0.1:5500/hitam.html#home">Dark Mode</a></li>
+            </ul>
+            <h1 class="logo">Prospero</h1>
+        </div>
+    </nav>
+      <!-- Area showcase -->
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">Prospero Barn and Coffee</h1>
+            <p>Good Food Good Mood</p>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+<!-- Bagian "About Us" -->
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>Western and Asian Cuisine
+                    with the best Coffee in Town
+                </h2>
+                <p>
+                    Prospero Barn and Coffee, established in 2022, quickly became a beloved culinary hotspot in Salatiga, Indonesia. Renowned for its expertly grilled dishes and diverse coffee offerings, it attracts locals and tourists alike. With its cozy yet modern ambiance, patrons enjoy exceptional dining experiences amidst soft lighting and the aroma of freshly brewed coffee. Prospero Barn and Coffee is the go-to place for culinary enthusiasts seeking quality cuisine and a peaceful retreat from city life.                </p>
+            </div>
+            <div class="about-img">
+                <img src="gambar/aa.jpg" alt="" />
+            </div>
+        </div>
+    </section>
+      <!-- Menu Makanan/Minuman -->
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Foods / Beverages</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="gambar/a3.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Porter House</h2>
+                    <p>
+                        Porterhouse steak: Combination of tenderloin and strip steak.
+                    </p>
+                    <p class="food-price">Price: 200.000 IDR</p>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="gambar/a2.jpg" alt="error" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Spicy Grilled Chicken</h2>
+                    <p>
+                        Spicy grilled chicken: Chicken grilled with spicy seasoning.
+                    </p>
+                    <p class="food-price">Price: 80.000 IDR</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="gambar/chick.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Mix Chicken Skewer</h2>
+                    <p>
+                        Mixed chicken skewer: Assorted chicken pieces skewered and grilled.
+                    </p>
+                    <p class="food-price">Price: 75.000 IDR</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="gambar/cpcino.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Cappuccino</h2>
+                    <p>
+                        Cappuccino: Espresso topped with frothed milk and a sprinkle of cocoa powder.
+                    </p>
+                    <p class="food-price">Price: 40.000 IDR</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="gambar/mocha.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Iced Mocca</h2>
+                    <p>
+                       Iced mocha: A cold coffee beverage made with espresso, chocolate 
+                       syrup, milk, and ice, typically topped with whipped cream.
+                    </p>
+                    <p class="food-price">Price: 45.000 IDR</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="gambar/rum.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Rum Coffee</h2>
+                    <p>
+                        Rum coffee: A beverage made by combining coffee with rum, often 
+                        served cold and sometimes topped with whipped cream or flavored syrup.
+                    </p>
+                    <p class="food-price">Price: 50.000 IDR</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Event Bulan Ini -->
+    <section id="events">
+        <h2 class="event-title">Event Of The Month</h2>
+        <div class="event-container container">
+            <div class="event-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="gambar/romantic.jpg" alt="" />
+                        <p class="customer-name">Romantic Dinner</p>
+                    </div>
+                </div>
+                <p class="event-text">
+                    Romantic dinner event: Enjoy an intimate evening with your loved one,
+                    featuring candlelit ambiance, exquisite cuisine, and live music.
+                </p>
+
+            </div>
+            <div class="event-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="gambar/livemusic.jpg" alt="" />
+                        <p class="customer-name">Live Music</p>
+                    </div>
+                </div>
+                <p class="event-text">
+                    Weekend live music: Enjoy live performances by talented musicians during 
+                    the weekend, creating a vibrant atmosphere and entertainment for attendees.
+                </p>
+
+            </div>
+            <div class="event-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="gambar/brthdy.jpg" alt="" />
+                        <p class="customer-name">Birthday Party</p>
+                    </div>
+                </div>
+                <p class="event-text">
+                    Birthday party at restaurant: Celebration at a restaurant for someone's birthday, 
+                    featuring food, drinks, and festivities.
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <!-- Promo Bulan Ini -->
+    <section id="promos">
+        <h2 class="promo-title">Promo Of The Month</h2>
+        <div class="promo-container container">
+            <div class="promo-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="gambar/funtasteak.jpg" alt="" />
+                        <p class="customer-name">Funtasteak</p>
+                    </div>
+                </div>
+                <p class="promo-text">
+                    Steak live cooking on your table lush, with premium meat 
+                    and make your experience
+                </p>
+      
+            </div>
+            <div class="promo-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="gambar/ecsatic.jpg" alt="" />
+                        <p class="customer-name">Ecsatic</p>
+                    </div>
+                </div>
+                <p class="promo-text">
+                    Get 25% off on all classic coffee and 50% off on all pastries
+                </p>
+      
+            </div>
+            <div class="promo-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="gambar/kiddish.jpg" alt="" />
+                        <p class="customer-name">Kiddish</p>
+                    </div>
+                </div>
+                <p class="promo-text">
+                    We available a special menu for children, 
+                    offering them a delightful dining experience.
+                </p>
+            </div>
+        </div>
+      </section>
+       <!-- Form Reservasi -->
+    <section id="Reservation">
+        <div class="Reservation container">
+            <div class="form-container">
+                <h2>Reservation</h2>
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="E-Mail" />
+                <input type="text" placeholder="Phone Number" />
+                <input type="text" placeholder="Date" />
+                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                <a href="#" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <h2>MAKE YOUR EXPERIENCE WITH US</h2>
+    </footer>
+    <!-- .................../ JS Code for smooth scrolling /...................... -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+</html>
+
+Code CSS
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ///////////..utility classes../////////// */
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-weight: small;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #085521;
+}
+
+.btn-primary:hover {
+    background: #085521;
+    transition: background 0.3s ease-in-out;
+}
+
+/* ............/navbar/............ *
+
+/* desktop mode............/// */
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+  display: none;
+}
+
+.navbar {
+  box-shadow: 0px 5px 10px 0px #000000;
+  position: fixed;
+  width: 100%;
+  background: #085521;
+  color: #ffffff;
+  opacity: 0.85;
+  height: 50px;
+  z-index: 12;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+
+.menu-items {
+  order: 2;
+  display: flex;
+}
+
+.menu-items li {
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu-items a:hover {
+  color: #117964;
+  transition: color 0.3s ease-in-out;
+}
+
+.logo {
+  order: 1;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ............//// Showcase styling ////......... */
+
+.showcase-area {
+  height: 50vh;
+  background: linear-gradient(
+      #2a6f43,
+      rgba(0, 0, 0, 0.336)
+    ),
+    url("gambar/a1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+#showcase h1 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+#showcase p {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.main-title {
+  text-transform: uppercase;
+  margin-top: 1.5em;
+}
+
+/* ......//about us//...... */
+
+#about {
+  padding: 50px 0;
+  background: #f5f5f7;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about h2 {
+  font-size: 2.3rem;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+#about .small {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 600;
+}
+
+.about-img {
+  flex: 1 1 400px;
+  padding: 30px;
+  transform: translateX(150%);
+  animation: about-img-animation 1s ease-in-out forwards;
+}
+
+@keyframes about-img-animation {
+  100% {
+    transform: translate(0);
+  }
+}
+
+.about-text {
+  flex: 1 1 400px;
+  padding: 30px;
+  margin: auto;
+  transform: translate(-150%);
+  animation: about-text-animation 1s ease-in-out forwards;
+}
+
+@keyframes about-text-animation {
+  100% {
+    transform: translate(0);
+  }
+}
+
+.about-img img {
+  display: block;
+  height: 400px;
+  max-width: 100%;
+  margin: auto;
+  object-fit: cover;
+  object-position: right;
+}
+
+/* .........../Food Menu/............ */
+
+.food-menu-heading {
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 400;
+  color: #666;
+}
+
+.food-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+}
+
+.food-menu-container img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.food-menu-item {
+  display: flex;
+  flex: 1 1 600px;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.food-description {
+  margin: auto 1.5rem;
+}
+
+.font-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #444;
+}
+
+.food-description p {
+  font-size: 1.4rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.food-description .food-price {
+  color: #117964;
+  font-weight: 700;
+}
+
+/* ........./ event /.......... */
+
+#events {
+  padding: 5rem 0;
+  background: rgba(243, 243, 243);
+}
+
+.event-title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.event-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.event-box .checked {
+  color: #ff9529;
+}
+
+.event-box .event-text {
+  margin: 1rem 0;
+  color: #444;
+}
+
+.event-box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.customer-photo img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin: auto;
+}
+/* ........ Promo ........... */
+#promos {
+    padding: 5rem 0;
+    background: rgba(243, 243, 243);
+  }
+  
+  .promo-title {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: #555;
+  }
+  
+  .promo-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  
+  .promo-box .checked {
+    color: #ff9529;
+  }
+  
+  .promo-box .promo-text {
+    margin: 1rem 0;
+    color: #444;
+  }
+  
+  .promo-box {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .customer-photo img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: auto;
+  }
+/* ........ Contact Us........... */
+
+#Reservation {
+  padding: 5rem 0;
+  background: rgb(226, 226, 226);
+}
+
+.Reservation-container {
+  display: flex;
+  background: #fff;
+}
+
+.form-container {
+  padding: 1rem;
+  width: 100%;
+  margin: auto;
+}
+
+.form-container input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 1rem 0;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.form-container textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  color: #444;
+  outline: none;
+  padding: 1rem 0;
+  resize: none;
+}
+
+.form-container h2 {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 1rem;
+  margin-top: -1.2rem;
+}
+
+.form-container a {
+  font-size: 1.3rem;
+}
+
+#footer h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 2.6rem;
+  font-weight: 500;
+  color: #fff;
+  background: #085521;
+}
+
+/* ......../ media query /.......... */
+
+@media (max-width: 768px) {
+  .navbar {
+    opacity: 0.95;
+  }
+
+  .navbar-container input[type="checkbox"],
+  .navbar-container .hamburger-lines {
+    display: block;
+  }
+
+  .navbar-container {
+    display: block;
+    position: relative;
+    height: 64px;
+  }
+
+  .navbar-container input[type="checkbox"] {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+  }
+
+  .navbar-container .hamburger-lines {
+    display: block;
+    height: 23px;
+    width: 35px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .navbar-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #333;
+  }
+
+  .navbar-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .navbar-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .navbar-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .navbar .menu-items {
+    padding-top: 100px;
+    background: #ffffff;
+    height: 100vh;
+    max-width: 300px;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    padding-left: 50px;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 5px 0px 10px 0px #aaa;
+  }
+
+  .navbar .menu-items li {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .logo {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 2rem;
+  }
+
+  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+  }
+
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(35deg);
+  }
+
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-35deg);
+  }
+
+  /* ......./ food /......... */
+
+  .food-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .img-container {
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 65%;
+  }
+
+  .navbar .menu-items li {
+    font-size: 1.6rem;
+  }
+
+  .event-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .food-menu-container img {
+    margin: auto;
+  }
+
+  .food-menu-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-container {
+    width: 90%;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-img {
+    width: 90%;
+    margin: 3rem auto;
+  }
+
+  .logo {
+    position: absolute;
+    top: 06px;
+    right: 15px;
+    font-size: 3rem;
+  }
+
+  .navbar .menu-items li {
+    margin-bottom: 2.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .img-container h3 {
+    font-size: 1.5rem;
+  }
+
+  .img-container .btn {
+    font-size: 0.7rem;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .showcase-area {
+    height: 50vmax;
+  }
+}
+
+/* CSS External */
+p {
+    font-size: 20px; /* Mengatur ukuran teks paragraf menjadi 20 piksel */
+}
+
+
+</body>
+
+</html>
